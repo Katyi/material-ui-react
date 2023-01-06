@@ -1,2 +1,2 @@
-# material-ui-react
-Material UI React project
+Material UI 5 (MUI) React Project
+Just to show my skill in MUI
