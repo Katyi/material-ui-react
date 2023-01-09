@@ -22,8 +22,8 @@ const Feed = () => {
         </Stack>
       ) : (
         <>
-            {PostsData.sort((a,b)=>Date.parse(a.date) < Date.parse(b.date) ? 1 : -1)
-              .map((item) => <Post item={item} key={item.id} />)}
+          {PostsData.sort((a, b) => Date.parse(a.date) < Date.parse(b.date) ? 1 : -1)
+            .map((item) => <Post item={item} key={item.id} />)}
         </>
       )}
     </Box>
